@@ -4,10 +4,44 @@
 		<script src="back.js" sync></script>
 	</head>
     <body>
+		<style>
+			table {
+				border-collapse: collapse;
+				width: 60%;
+			}
+
+			td,
+			th {
+				border: 1px solid #000000;
+				text-align: left;
+				padding: 8px;
+			}
+		</style>
         <h1>
           <span id="hour">00</span> :
           <span id="min">00</span> :
           <span id="sec">00</span>
         </h1>
+		
+		<div id="data-table">
+			<table id="html-data-table">
+				<tr>
+					<th>№</th>
+					<th>Начало</th>
+					<th>Конец</th>
+				</tr>
+				<tr class='num1 lesson'>
+					<td class='n'></td>
+					<td class='start'></td>
+					<td class='end'></td`>
+				</tr>
+				<tr class='num1 perem'>
+					<td class='n'></td>
+					<td class='start'></td>
+					<td class='end'></td`>
+				</tr>
+			</table>    
+		</div>
     </body>
+	
 </html>
